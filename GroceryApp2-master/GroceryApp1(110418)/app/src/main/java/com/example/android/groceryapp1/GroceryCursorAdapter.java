@@ -48,6 +48,9 @@ class GroceryCursorAdapter extends CursorAdapter{
         final int groceryId = cursor.getColumnIndex ( GroceryContract.GroceryEntry._ID );
 
         Button saleBtn = view.findViewById ( R.id.saleBtn );
+        
+        // Set the Buttion Text either here or in the xml layout file 
+        
         saleBtn.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View v) {
