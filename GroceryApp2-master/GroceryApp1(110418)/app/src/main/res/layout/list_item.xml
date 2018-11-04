@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="16dp">
     <TextView
         android:id="@+id/grocery_name"
@@ -16,9 +16,11 @@
         android:id="@+id/grocery_qty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+   
     <Button
         android:id="@+id/saleBtn"
         android:layout_width="wrap_content"
+             <!-- set the text here of the button - like "minus 1" or "sell 1 "  ->
         android:layout_height="wrap_content"
        android:focusable="false"/>
 </LinearLayout>
