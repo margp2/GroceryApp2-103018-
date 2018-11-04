@@ -83,7 +83,14 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         mPriceEditText = findViewById ( priceEditText );
         mIncreaseQtyBtn = findViewById ( increaseBtn );
         mDecreaseQtyBtn = findViewById ( decreaseBtn );
+   
+        
         mQuantityEditText = findViewById ( qtyEditText );
+        
+        // set text of the edittext to "quantity" here - to quantity here, so it will have a value before 
+        // a user tries to click.
+        
+        
         mSupplierNameEditText = findViewById ( supplierNameEdit );
         mSupplierPhoneEditText = findViewById ( supplierPhoneEdit );
         mSupplierPhoneBtn = findViewById ( supplierPhoneBtn );
@@ -106,7 +113,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         mDecreaseQtyBtn.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View v) {
-             int quantity = Integer.parseInt ( mQuantityEditText.getText ().toString ().trim () );
+             int quantity = Integer.parseInt ( mQuantityEditText.getText().toString ().trim () );
                  if (quantity <= 0 ){
                      Toast.makeText ( EditorActivity.this, "The quantity can not be less than 0", Toast.LENGTH_SHORT ).show ();
                  } else {mQuantityEditText.setText ( String.valueOf ( --quantity ) );}
