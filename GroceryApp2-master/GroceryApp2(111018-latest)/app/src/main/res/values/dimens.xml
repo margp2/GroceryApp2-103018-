@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txtViewPad">16dp</dimen>
+    <dimen name="main_lin_lay_dim">16dp</dimen>
+    <dimen name="contactBtnWidth">106dp</dimen>
+    <dimen name="contactBtnheight">36dp</dimen>
+    <dimen name="listItemPad">9dp</dimen>
+    <dimen name="contactBtnMargEnd">12dp</dimen>
+</resources>
