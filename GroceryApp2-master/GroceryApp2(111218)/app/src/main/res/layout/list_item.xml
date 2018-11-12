@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/grocery_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listItemPad" />
+
+    <TextView
+        android:id="@+id/groceryPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listItemPad" />
+
+    <TextView
+        android:id="@+id/grocery_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listItemPad" />
+
+    <TextView
+        android:id="@+id/grocSuppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listItemPad" />
+
+    <TextView
+        android:id="@+id/grocSuppPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/listItemPad" />
+
+    <Button
+        android:id="@+id/saleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:padding="@dimen/listItemPad"
+        android:text="sale"/>
+</LinearLayout>
